@@ -1,0 +1,78 @@
+/*Hunkar Lule-web_development_lab2_positioning*/
+
+html,
+body {
+  background-color: #1c807e;
+}
+
+
+.content h1 {
+  color: #878787;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+#leftnav {
+  position: absolute;
+  top: 8px;
+  border: 1px #000000;
+  border-style: dashed;
+  padding-top: 8px;
+  width: 150px;
+  background-color: #ffffff;
+}
+
+
+#rightnav {
+  position: absolute;
+  top: 0px;
+  right: 8px;
+  border: 1px #000000;
+  border-style: dashed;
+  margin-top: 8px;
+  width: 150px;
+  background-color: #ededed;
+  padding-top: 8px;
+}
+
+.content {
+  background-color: #FFFFFF;
+  margin-bottom: 8px;
+  margin-left: 164px;
+  margin-right: 164px;
+  padding: 8px;
+  border-left: 3px solid #000000;
+  min-width: 100px;
+}
+
+#leftnav p a {
+  color: #1c807e;
+  font-weight: bold;
+}
+
+h1,
+h2,
+p {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+p {
+  margin-top: 8px;
+  margin-right: 8px;
+}
+
+#leftnav p a {
+  text-decoration: none;
+}
+
+h2 {
+  color: #1b754a;
+  margin-bottom: 8px;
+  margin-top: 0px;
+}
+
+#leftnav a:hover {
+  background-color: #bababa;
+  cursor: context-menu;
+}
